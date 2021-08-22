@@ -11,9 +11,7 @@ git clone https://github.com/acgoularthub/z-eves.git /opt/Z/
 2. Instale os complementos "64-bits" presentes em `/opt/Z/64-bits/`, use o comando a seguir:
 
 ```bash
-cd /opt/Z/64-bits/ && sudo chmod +x install.sh 
-./install.sh
-cd
+cd /opt/Z/64-bits/ && sudo chmod +x install.sh && ./install.sh && cd
 ```
 
 3. Execute o programa com a linha a seguir:
