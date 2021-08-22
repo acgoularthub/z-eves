@@ -1,30 +1,43 @@
-# Z-EVES for linux
+# Z-EVES para Linux (README em Português)
 
-## Instalation and usage
+## Instalação e uso:
 
-1. [Download](https://github.com/arandilopez/z-eves/archive/master.zip) this repo anywhere
-2. Copy its contents in `/opt/Z`
-3. Then run `bash /opt/Z/Z-Eves/system/z-eves-gui.sh`
-4. Use it
+1. Use o comando a seguir para criar o repositório "Z" em `/opt/` e já clonar este [repositório](https://github.com/acgoularthub/z-eves.git) do git.
 
-### Need to run in 64bits OS?
+```bash
+git clone https://github.com/acgoularthub/z-eves.git /opt/Z/
+```
 
-- run `sh 64-bits/install.sh` to install dependencies
+2. Instale os complementos "64-bits" presentes em `/opt/Z/64-bits/`, use o comando a seguir:
 
-## Why Z-EVES??
+```bash
+cd /opt/Z/64-bits/ && sudo chmod +x install.sh 
+./install.sh
+cd
+```
 
-Neither I know why or for what you should use this shit, but let me tell you something.
+3. Execute o programa com a linha a seguir:
+```bash
+bash /opt/Z/Z-Eves/system/z-eves-gui.sh
+```
 
-You maybe need to use it if you (like me) are studying Software Engineering or any Computer Science related degree, you may be prompt to use this shit.
+4. O programa deve iniciar uma janela GUI, use como precisar.
 
-This is a linux version (that I used to use) for z-eves. So, why linux? because Windows is a shit.
+* Caso você pretenda, por algum motivo, executar este programa em um sistema 32-bits, ignore o "passo 2".
 
-With :heart: SE. Arandi López
+## Por que usar o Z-EVES?
 
+Eu realmente desconheço outras utilidades para este programa senão para fins acadêmicos, seja estudando Engenharia de Software ou qualquer matéria relacionada a cursos como Ciência da Computação.
 
-## Usage?
+O propósito para o qual precisei deste programa foi para exercícios provenientes do Bacharelado em Ciência da Computação.
 
-[Maybe this PDF can help you](https://github.com/arandilopez/z-eves/blob/master/97-5505-04g.pdf)
+Esta é uma versão utilizada em Linux, a distro que uso no momento em que escrevo este README (e que funcionou) é o Ubuntu 20.04 e funcionou perfeitamente.
 
-## License?
-All copyrights are to the guy/enterprise who code it
+Este repositório é um Fork que fiz do [Arandi Lopez](https://github.com/arandilopez/z-eves), um dos poucos lugares de onde é possível encontrar este programa utilizável. Decidi traduzir e alterar o README original para ajudar futuros usuários que tenham pouca experiência em ler a documentação de softwares no github.
+
+## Manual
+
+Você pode utilizar este [manual](https://github.com/arandilopez/z-eves/blob/master/97-5505-04g.pdf) fornecido pelos desenvolvedores deste software para buscar por mais informações.
+
+## Licença
+Todos os direitos são reservados aos desenvolvedores do software (Provavelmente a ORA Canada).
